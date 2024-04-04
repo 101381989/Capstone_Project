@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideCamera">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Add a TextView for the main title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guide for Choosing a Camera"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Add space between title and videos -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Add a designed heading for the first video -->
+        <TextView
+            android:id="@+id/video1Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 1: Introduction to Cameras"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the first video -->
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Repeat the pattern for each video with its own designed heading -->
+        <!-- Video 2 -->
+        <TextView
+            android:id="@+id/video2Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 2: Camera Types and Features"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the second video -->
+        <WebView
+            android:id="@+id/webView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 3 -->
+        <TextView
+            android:id="@+id/video3Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 3: Camera Settings and Modes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the third video -->
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 4 -->
+        <TextView
+            android:id="@+id/video4Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 4: Tips for Buying a Camera"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the fourth video -->
+        <WebView
+            android:id="@+id/webView4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 5 -->
+        <TextView
+            android:id="@+id/video5Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video 5: Camera Accessories Guide"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the fifth video -->
+        <WebView
+            android:id="@+id/webView5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Repeat for other videos -->
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

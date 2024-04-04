@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DronesPage">
+
+    <!-- Banner with product image and shopping options -->
+    <ImageView
+        android:id="@+id/bannerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_image" /> <!-- Replace with your banner image -->
+
+    <!-- Shopping options -->
+    <!-- Add your shopping buttons or any other UI elements here -->
+
+    <!-- Related products section -->
+    <LinearLayout
+        android:id="@+id/relatedProductsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bannerImageView"
+        android:orientation="vertical"
+        android:padding="11dp">
+
+        <!-- Product 1 -->
+
+        <!-- Product 2 -->
+
+        <include layout="@layout/drones_item" />
+
+        <include layout="@layout/drones_item" />
+
+        <!-- Product 3 -->
+        <include layout="@layout/drones_item" />
+
+        <!-- Product 4 -->
+        <include layout="@layout/drones_item" />
+
+    </LinearLayout>
+
+</RelativeLayout>

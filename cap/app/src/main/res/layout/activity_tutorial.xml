@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Tutorial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/black">
+
+        <!-- Add a TextView for the main title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutorial"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/cardview_light_background" />
+
+        <!-- Add space between title and presets -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <!-- Title for presets -->
+        <TextView
+            android:id="@+id/presetsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presets"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Preset 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Preview image for Preset 1 -->
+            <ImageView
+                android:id="@+id/preset1Image"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/preset1_preview"
+                android:contentDescription="Add a touch of vintage charm and achieve a pure and simple effect with this preset" />
+
+            <!-- Preset title for Preset 1 -->
+            <TextView
+                android:id="@+id/preset1Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Light &amp; Airy  "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+            <!-- Download button for Preset 1 -->
+            <Button
+                android:id="@+id/download_preset1_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <!-- Add space between presets -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <!-- Preset 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Preview image for Preset 2 -->
+            <ImageView
+                android:id="@+id/preset2Image"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/preset2_preview"
+                android:contentDescription="Preset 2 Preview" />
+
+            <!-- Preset title for Preset 2 -->
+            <TextView
+                android:id="@+id/preset2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Product        "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+            <!-- Download button for Preset 2 -->
+            <Button
+                android:id="@+id/download_preset2_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <!-- Add space between presets -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <!-- Preset 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Preview image for Preset 3 -->
+            <ImageView
+                android:id="@+id/preset3Image"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/preset3_preview"
+                android:contentDescription="Preset 3 Preview" />
+
+            <!-- Preset title for Preset 3 -->
+            <TextView
+                android:id="@+id/preset3Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    GoPro         "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+            <!-- Download button for Preset 3 -->
+            <Button
+                android:id="@+id/download_preset3_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <!-- Add space between presets -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <!-- Preset 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Preview image for Preset 4 -->
+            <ImageView
+                android:id="@+id/preset4Image"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/preset4_preview"
+                android:contentDescription="Preset 4 Preview" />
+
+            <!-- Preset title for Preset 4 -->
+            <TextView
+                android:id="@+id/preset4Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black &amp; White"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+            <!-- Download button for Preset 4 -->
+            <Button
+                android:id="@+id/download_preset4_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
+        <!-- Add space between presets -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Add space between presets and videos -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Designed heading for the first video -->
+        <TextView
+            android:id="@+id/video1Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video: Basics in Photography"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the first video -->
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Repeat the pattern for each video with its own designed heading -->
+        <!-- Video 2 -->
+        <TextView
+            android:id="@+id/video2Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video: Geographic Photographing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the second video -->
+        <WebView
+            android:id="@+id/webView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 3 -->
+        <TextView
+            android:id="@+id/video3Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video: Composition, Lighting and Camera Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the third video -->
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 4 -->
+        <TextView
+            android:id="@+id/video4Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video: How edit in LightRoom "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the fourth video -->
+        <WebView
+            android:id="@+id/webView4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Video 5 -->
+        <TextView
+            android:id="@+id/video5Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video: 5 mobile video transitions"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <!-- Your WebView for the fifth video -->
+        <WebView
+            android:id="@+id/webView5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+        <!-- Add space between video and text -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

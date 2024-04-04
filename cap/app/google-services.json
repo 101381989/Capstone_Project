@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922546190638",
+    "project_id": "capm-8cec6",
+    "storage_bucket": "capm-8cec6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922546190638:android:606a57514024779efee2bf",
+        "android_client_info": {
+          "package_name": "com.example.cap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs76Mq15dt81XTBq75Zps4enBTG_Op2bE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

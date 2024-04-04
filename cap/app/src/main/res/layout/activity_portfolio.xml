@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- User Profile Section -->
+
+        <Button
+            android:id="@+id/edit_user_button"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end|top"
+            android:background="@drawable/purple_rounded_button"
+            android:text="Edit Profile"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/user_bio_image"
+                android:layout_width="96dp"
+                android:layout_height="86dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_user_image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/current_user_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- User Bio -->
+
+                <TextView
+                    android:id="@+id/user_bio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Bio"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <!-- User Image Count -->
+
+                <TextView
+                    android:id="@+id/user_image_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Images Uploaded: 0"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Upload Button -->
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/purple_rounded_button"
+            android:text="Upload Image"
+            android:textColor="@android:color/white" />
+
+        <!-- Uploaded Images Grid -->
+
+        <GridView
+            android:id="@+id/uploaded_images_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="350dp"
+            android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:padding="0dp"
+            android:numColumns="3"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="DronesPage">
+        <State />
+      </entry>
+      <entry key="GuideCamera">
+        <State />
+      </entry>
+      <entry key="cap.app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Pixel_6_Pro_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-04T02:26:43.458044Z" />
+        </State>
+      </entry>
+      <entry key="photostylepage1">
+        <State />
+      </entry>
+      <entry key="photostylepage2">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
